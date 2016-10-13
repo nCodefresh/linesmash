@@ -10,7 +10,7 @@ build:
    - docker build -t="sreekanthrajan/linesmash:latest" .
    - docker push sreekanthrajan/linesmash:latest
 
-
-hub:
-  - integrationName: "Docker"
-    type: docker
+integrations:   
+  hub:
+    - integrationName: "Docker"
+      type: docker
