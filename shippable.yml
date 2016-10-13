@@ -6,3 +6,6 @@ jdk:
 build:
   ci:
    - mvn install -DskipTests=true
+  post_ci:
+   - docker build -t=sreekanthrajan/linesmash:latest" .
+   - docker push sreekanthrajan/linesmash:latest
