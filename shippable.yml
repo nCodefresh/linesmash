@@ -12,5 +12,5 @@ build:
 
 
 hub:
-  - integrationName: "docker-test"
+  - integrationName: "Docker"
     type: docker
