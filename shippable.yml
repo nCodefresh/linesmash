@@ -9,3 +9,8 @@ build:
   post_ci:
    - docker build -t="sreekanthrajan/linesmash:latest" .
    - docker push sreekanthrajan/linesmash:latest
+
+
+hub:
+  - integrationName: "docker-test"
+    type: docker
